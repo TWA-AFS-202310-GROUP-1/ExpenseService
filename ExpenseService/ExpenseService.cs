@@ -7,7 +7,7 @@ namespace Expense.Service
 {
     public class ExpenseService
     {
-        public static ExpenseType GetExpenseCodeByProjectTypeAndName(Project project)
+        public static ExpenseType GetExpenseType(Project project)
         {
             if (project.ProjectType == ProjectType.INTERNAL)
             {
